@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class KataTest {
     @Test
-    public void testSomething() {
+    void testSomething() {
         assertEquals("", Kata.alternateCase(""));
         assertEquals("ABC", Kata.alternateCase("abc"));
         assertEquals("abc", Kata.alternateCase("ABC"));

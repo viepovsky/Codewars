@@ -1,7 +1,7 @@
 package create_phone_number;
 
-public class Kata {
-    public static String createPhoneNumber(int[] numbers) {
+class Kata {
+    static String createPhoneNumber(int[] numbers) {
         StringBuilder result = new StringBuilder("(");
         for (int i = 0; i < numbers.length; i++) {
             if (i < 3) {

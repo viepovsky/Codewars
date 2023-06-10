@@ -3,8 +3,8 @@ package snail;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Snail {
-    public static int[] snail(int[][] array) {
+class Snail {
+    static int[] snail(int[][] array) {
         if (array.length == 0 || array[0].length == 0) {
             return new int[0];
         }

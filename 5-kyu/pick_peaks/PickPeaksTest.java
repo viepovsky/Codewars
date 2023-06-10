@@ -10,7 +10,7 @@ import java.util.stream.Collectors;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class PickPeaksTest {
+class PickPeaksTest {
 
     private static String[] msg = {"should support finding peaks",
             "should support finding peaks, but should ignore peaks on the edge of the array",
@@ -40,7 +40,7 @@ public class PickPeaksTest {
             {15,14,14}};
 
     @Test
-    public void sampleTests() {
+    void sampleTests() {
         for (int n = 0 ; n < msg.length ; n++) {
             final int[] p1 = posS[n], p2 = peaksS[n];
             Map<String,List<Integer>> expected = new HashMap<>() {{
@@ -53,7 +53,7 @@ public class PickPeaksTest {
     }
 
     @Test
-    public void testsMine() {
+    void testsMine() {
         assertEquals("{pos=[4, 6, 11], peaks=[15, 14, 14]}", PickPeaks.getPeaks(new int[] {7, -4, 12, 12, 15, 10, 14, 14, 11, -3, 3, 14, 9, -3}).toString());
     }
 }

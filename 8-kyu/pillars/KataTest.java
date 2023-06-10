@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class KataTest {
+class KataTest {
     @Test
     void basicTest1() {
         assertEquals(0, Kata.pillars(1,10,10), "Testing for number of pillars: 1, distance: 10 m and width: 10 cm");

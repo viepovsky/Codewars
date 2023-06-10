@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class SolutionTest {
+class SolutionTest {
     @Test
     void notFinished() {
         assertEquals(-1, Solution.isSolved(new int[][] {

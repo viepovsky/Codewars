@@ -9,12 +9,12 @@ import java.util.stream.IntStream;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class SolutionTest {
+class SolutionTest {
 
     Upper u = new Upper();
 
     @Test
-    public void testSomething() {
+    void testSomething() {
         assertEquals("HELLO",u.MakeUpperCase("hello"));
         assertEquals("HELLO WORLD",u.MakeUpperCase("hello world"));
         assertEquals("HELLO WORLD !",u.MakeUpperCase("hello world !"));
@@ -23,7 +23,7 @@ public class SolutionTest {
     }
 
     @Test
-    public void randomTests(){
+    void randomTests(){
         Random r = new Random();
         String letters = "abcdefgh ijklmnopq rstuvwxyz ABCDEFGHIJ QLMNOPQRSTUVWXYZ 1234567890!";
 

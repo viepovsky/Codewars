@@ -4,9 +4,9 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class SolutionTest {
+class SolutionTest {
     @Test
-    public void basicTests(){
+    void basicTests(){
         assertEquals(1, Solution.solve(new int[] {1,1,1}));
         assertEquals(2, Solution.solve(new int[] {1,2,1}));
         assertEquals(2, Solution.solve(new int[] {4,1,1}));

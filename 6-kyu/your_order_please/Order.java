@@ -3,8 +3,8 @@ package your_order_please;
 import java.util.Arrays;
 import java.util.List;
 
-public class Order {
-    public static String order(String words) {
+class Order {
+    static String order(String words) {
         if (words.isEmpty()) {
             return "";
         }

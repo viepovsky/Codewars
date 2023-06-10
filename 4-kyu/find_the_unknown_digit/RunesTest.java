@@ -4,9 +4,9 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class RunesTest {
+class RunesTest {
     @Test
-    public void testSample() {
+    void testSample() {
         assertEquals(2 , Runes.solveExpression("1+1=?") );
         assertEquals(6 , Runes.solveExpression("123*45?=5?088") );
         assertEquals( 0 , Runes.solveExpression("-5?*-1=5?") );

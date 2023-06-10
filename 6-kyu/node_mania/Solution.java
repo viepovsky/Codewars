@@ -4,8 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
-public class Solution{
-    public static Integer searchKFromEnd(Node linkedList, int k){
+class Solution{
+    static Integer searchKFromEnd(Node linkedList, int k){
         if (linkedList == null) return null;
         List<Integer> values = new ArrayList<>();
         boolean endWhile = false;

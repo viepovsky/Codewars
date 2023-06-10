@@ -7,16 +7,16 @@ import java.util.Random;
 
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
-public class LostWithoutAMapTest {
+class LostWithoutAMapTest {
     @Test
-    public void basicTests() {
+    void basicTests() {
         assertArrayEquals(new int[]{2, 4, 6}, LostWithoutAMap.map(new int[]{1, 2, 3}));
         assertArrayEquals(new int[]{8, 2, 2, 2, 8}, LostWithoutAMap.map(new int[]{4, 1, 1, 1, 4}));
         assertArrayEquals(new int[]{2, 2, 2, 2, 2, 2}, LostWithoutAMap.map(new int[]{1, 1, 1, 1, 1, 1}));
     }
 
     @Test
-    public void randomTests() {
+    void randomTests() {
         Random random = new Random();
         for (int i = 1; i <= 100; i++) {
             int[] randomArr = new int[i];

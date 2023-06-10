@@ -7,9 +7,9 @@ import java.util.Arrays;
 import static java.util.stream.Collectors.joining;
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
-public class SnailTest {
+class SnailTest {
     @Test
-    public void SnailTest1() {
+    void SnailTest1() {
         int[][] array
                 = {{1, 2, 3},
                 {4, 5, 6},
@@ -19,7 +19,7 @@ public class SnailTest {
     }
 
     @Test
-    public void SnailTest2() {
+    void SnailTest2() {
         int[][] array
                 = {{1, 2, 3, 9},
                 {4, 5, 6, 4},
@@ -30,7 +30,7 @@ public class SnailTest {
     }
 
     @Test
-    public void SnailTest3() {
+    void SnailTest3() {
         int[][] array
                 = {{1, 2, 3, 4, 5, 6},
                     {7, 6, 5, 4, 3, 7},
@@ -42,18 +42,18 @@ public class SnailTest {
         test(array, r);
     }
     @Test
-    public void SnailTest4() {
+    void SnailTest4() {
         int[][] array
                 = {{}};
         int[] r = {};
         test(array, r);
     }
 
-    public String int2dToString(int[][] a) {
+    String int2dToString(int[][] a) {
         return Arrays.stream(a).map(Arrays::toString).collect(joining("\n"));
     }
 
-    public void test(int[][] array, int[] result) {
+    void test(int[][] array, int[] result) {
         String text = int2dToString(array) + " should be sorted to " + Arrays.toString(result);
         System.out.println(text);
         assertArrayEquals( result, Snail.snail(array));

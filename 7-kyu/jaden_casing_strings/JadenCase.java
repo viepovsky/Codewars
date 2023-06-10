@@ -3,8 +3,8 @@ package jaden_casing_strings;
 import java.util.Arrays;
 import java.util.stream.Collectors;
 
-public class JadenCase {
-    public String toJadenCase(String phrase) {
+class JadenCase {
+    String toJadenCase(String phrase) {
         if (phrase == null || phrase.equals("")) {
             return null;
         }

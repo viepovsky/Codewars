@@ -4,29 +4,29 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class PaperTests {
+class PaperTests {
     @Test
-    public void test1(){
+    void test1(){
         assertEquals(25, Paper.paperWork(5,5));
     }
 
     @Test
-    public void test2(){
+    void test2(){
         assertEquals(0, Paper.paperWork(5,-5));
     }
 
     @Test
-    public void test3(){
+    void test3(){
         assertEquals(0, Paper.paperWork(-5,-5));
     }
 
     @Test
-    public void test4(){
+    void test4(){
         assertEquals(0, Paper.paperWork(-5,5));
     }
 
     @Test
-    public void test5(){
+    void test5(){
         assertEquals(0, Paper.paperWork(5,0));
     }
 }

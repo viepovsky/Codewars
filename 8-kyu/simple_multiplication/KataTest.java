@@ -4,9 +4,9 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class KataTest {
+class KataTest {
     @Test
-    public void test1() {
+    void test1() {
         System.out.println("Checking for Odd numbers.");
         assertEquals(9, Kata.simpleMultiplication(1));
         assertEquals(27, Kata.simpleMultiplication(3));
@@ -15,7 +15,7 @@ public class KataTest {
     }
 
     @Test
-    public void test2() {
+    void test2() {
         System.out.println("Checking for Even numbers.");
         assertEquals(16, Kata.simpleMultiplication(2));
         assertEquals(32, Kata.simpleMultiplication(4));

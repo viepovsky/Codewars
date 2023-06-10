@@ -2,7 +2,7 @@ package find_the_parity_outlier;
 
 import java.util.Arrays;
 
-public class FindOutlier {
+class FindOutlier {
     static int find(int[] integers) {
         boolean even = false;
         int countEven = 0, countOdd = 0;

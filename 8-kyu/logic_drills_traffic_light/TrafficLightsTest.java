@@ -6,19 +6,19 @@ import java.util.Random;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class TrafficLightsTest {
+class TrafficLightsTest {
     String input;
     String expected;
 
     @Test
-    public void testUpdateLight(){
+    void testUpdateLight(){
         assertEquals("green", TrafficLights.updateLight("red"));
         assertEquals("yellow", TrafficLights.updateLight("green"));
         assertEquals("red", TrafficLights.updateLight("yellow"));
     }
 
     @Test
-    public void testRandomUpdateLight() {
+    void testRandomUpdateLight() {
         Random rand = new Random();
 
         for (int i=0; i < 10; i++) {

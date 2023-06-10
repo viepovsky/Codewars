@@ -3,8 +3,8 @@ package collatz_conjecture_length;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Collatz {
-    public static long conjecture(long x) {
+class Collatz {
+    static long conjecture(long x) {
         long number = x;
         List<Long> operationResults = new ArrayList<>();
         operationResults.add(number);

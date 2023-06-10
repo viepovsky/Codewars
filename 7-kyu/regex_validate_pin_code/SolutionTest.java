@@ -4,9 +4,9 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class SolutionTest {
+class SolutionTest {
     @Test
-    public void validPins() {
+    void validPins() {
         assertEquals(true, Solution.validatePin("1234"));
         assertEquals(true, Solution.validatePin("0000"));
         assertEquals(true, Solution.validatePin("1111"));
@@ -17,13 +17,13 @@ public class SolutionTest {
     }
 
     @Test
-    public void nonDigitCharacters() {
+    void nonDigitCharacters() {
         assertEquals(false, Solution.validatePin("a234"));
         assertEquals(false, Solution.validatePin(".234"));
     }
 
     @Test
-    public void invalidLengths() {
+    void invalidLengths() {
         assertEquals(false, Solution.validatePin("1"));
         assertEquals(false, Solution.validatePin("12"));
         assertEquals(false, Solution.validatePin("123"));

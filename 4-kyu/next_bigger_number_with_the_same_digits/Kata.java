@@ -7,8 +7,8 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 
-public class Kata {
-    public static long nextBiggerNumber(long n) {
+class Kata {
+    static long nextBiggerNumber(long n) {
         int[] inputArray = Arrays.stream(Long.toString(n).split(""))
                 .mapToInt(Integer::parseInt)
                 .toArray();

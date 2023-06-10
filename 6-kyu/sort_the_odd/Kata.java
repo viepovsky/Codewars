@@ -4,8 +4,8 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class Kata {
-    public static int[] sortArray(int[] array) {
+class Kata {
+    static int[] sortArray(int[] array) {
         List<Integer> oddList = new ArrayList<>();
         for (int i : array) {
             if (i % 2 != 0) {

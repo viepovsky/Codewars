@@ -4,24 +4,24 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class CountingDuplicatesTest {
+class CountingDuplicatesTest {
     @Test
-    public void abcdeReturnsZero() {
+    void abcdeReturnsZero() {
         assertEquals(0, CountingDuplicates.duplicateCount("abcde"));
     }
 
     @Test
-    public void abcdeaReturnsOne() {
+    void abcdeaReturnsOne() {
         assertEquals(1, CountingDuplicates.duplicateCount("abcdea"));
     }
 
     @Test
-    public void indivisibilityReturnsOne() {
+    void indivisibilityReturnsOne() {
         assertEquals(1, CountingDuplicates.duplicateCount("indivisibility"));
     }
 
     @Test
-    public void reallyLongStringContainingDuplicatesReturnsThree() {
+    void reallyLongStringContainingDuplicatesReturnsThree() {
         String testThousandA = new String(new char[1000]).replace('\0', 'a');
         String testHundredB = new String(new char[100]).replace('\0', 'b');
         String testTenC = new String(new char[10]).replace('\0', 'c');

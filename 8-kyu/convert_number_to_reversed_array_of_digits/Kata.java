@@ -1,7 +1,7 @@
 package convert_number_to_reversed_array_of_digits;
 
-public class Kata {
-    public static int[] digitize(long n) {
+class Kata {
+    static int[] digitize(long n) {
         String number = String.valueOf(n);
         int[] result = new int[number.length()];
         for (int i = 0; i < number.length(); i++) {

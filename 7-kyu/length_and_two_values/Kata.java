@@ -1,7 +1,7 @@
 package length_and_two_values;
 
-public class Kata {
-    public static String[] alternate(int n, String firstValue, String secondValue) {
+class Kata {
+    static String[] alternate(int n, String firstValue, String secondValue) {
         String[] result = new String[n];
         for (int i = 0; i < n; i++) {
             if (i % 2 == 0) {

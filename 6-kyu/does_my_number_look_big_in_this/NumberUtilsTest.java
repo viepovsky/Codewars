@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-public class NumberUtilsTest {
+class NumberUtilsTest {
     @Test
     void exampleTests() {
         assertTrue(NumberUtils.isNarcissistic(153), "153 is narcissistic");

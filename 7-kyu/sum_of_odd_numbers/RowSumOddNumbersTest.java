@@ -6,9 +6,9 @@ import java.util.Random;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class RowSumOddNumbersTest {
+class RowSumOddNumbersTest {
     @Test
-    public void test1() {
+    void test1() {
         Random rnd = new Random();
         for(int i=0;i<50;i++){
             int n = rnd.nextInt(500)+1;

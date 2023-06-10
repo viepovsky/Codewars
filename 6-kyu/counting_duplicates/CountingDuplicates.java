@@ -4,8 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
-public class CountingDuplicates {
-    public static int duplicateCount(String text) {
+class CountingDuplicates {
+    static int duplicateCount(String text) {
         List<Character> duplicateList = new ArrayList<>();
         text = text.toLowerCase();
         for (int i = 0; i < text.length(); i++) {

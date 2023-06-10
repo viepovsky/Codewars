@@ -1,6 +1,6 @@
 package node_mania;
 
-public class Node {
-    public int data;
-    public Node next;
+class Node {
+    int data;
+    Node next;
 }

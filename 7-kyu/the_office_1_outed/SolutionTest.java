@@ -4,9 +4,9 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class SolutionTest {
+class SolutionTest {
     @Test
-    public void basic1() {
+    void basic1() {
         Person[] meet = new Person[] {
                 new Person("tim", 0),
                 new Person("jim", 2),
@@ -24,7 +24,7 @@ public class SolutionTest {
     }
 
     @Test
-    public void basic2() {
+    void basic2() {
         Person[] meet = new Person[] {
                 new Person("tim", 1),
                 new Person("jim", 3),
@@ -42,7 +42,7 @@ public class SolutionTest {
     }
 
     @Test
-    public void basic3() {
+    void basic3() {
         Person[] meet = new Person[] {
                 new Person("tim", 2),
                 new Person("jim", 4),
@@ -60,7 +60,7 @@ public class SolutionTest {
     }
 
     @Test
-    public void basic4() {
+    void basic4() {
         Person[] meet = new Person[] {
                 new Person("tim", 4),
                 new Person("jim", 4),

@@ -4,9 +4,9 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class SpinWords {
+class SpinWords {
 
-    public String spinWords(String sentence) {
+    String spinWords(String sentence) {
         List<String> strings = Arrays.stream(sentence.split(" ")).toList();
         return strings.stream()
                 .map(n -> {

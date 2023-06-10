@@ -4,21 +4,21 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class KeepHydratedTest {
+class KeepHydratedTest {
     KeepHydrated kh = new KeepHydrated();
 
     @Test
-    public void basicTest1() {assertEquals(1, kh.Liters(2));}
+    void basicTest1() {assertEquals(1, kh.Liters(2));}
     @Test
-    public void basicTest2()  {assertEquals(0, kh.Liters(0.82));}
+    void basicTest2()  {assertEquals(0, kh.Liters(0.82));}
     @Test
-    public void basicTest3()  {assertEquals(6, kh.Liters(12.83));}
+    void basicTest3()  {assertEquals(6, kh.Liters(12.83));}
     @Test
-    public void basicTest4()  {assertEquals(901, kh.Liters(1802.44));}
+    void basicTest4()  {assertEquals(901, kh.Liters(1802.44));}
     @Test
-    public void basicTest5()  {assertEquals(30, kh.Liters(60));}
+    void basicTest5()  {assertEquals(30, kh.Liters(60));}
     @Test
-    public void randTesting()  {
+    void randTesting()  {
 
         for(int i = 0; i < 5; i++)  {
 

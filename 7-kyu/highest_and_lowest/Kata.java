@@ -2,8 +2,8 @@ package highest_and_lowest;
 
 import java.util.*;
 
-public class Kata {
-    public static String highAndLow(String numbers) {
+class Kata {
+    static String highAndLow(String numbers) {
         char[] charArray = new char[numbers.length()];
         numbers.getChars(0, numbers.length(), charArray, 0);
         List<String> numberList = new ArrayList<>();

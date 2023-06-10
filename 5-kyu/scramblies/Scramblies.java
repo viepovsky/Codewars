@@ -3,8 +3,8 @@ package scramblies;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Scramblies {
-    public static boolean scramble(String str1, String str2) {
+class Scramblies {
+    static boolean scramble(String str1, String str2) {
         boolean isPossible = true;
         List<Character> alreadyCheckedLetters = new ArrayList<>();
         for (int i = 0; i < str2.length(); i++) {

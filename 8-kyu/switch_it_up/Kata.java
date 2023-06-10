@@ -1,7 +1,7 @@
 package switch_it_up;
 
-public class Kata {
-    public static String switchItUp(int number) {
+class Kata {
+    static String switchItUp(int number) {
         return switch (number) {
             case 0 -> "Zero";
             case 1 -> "One";

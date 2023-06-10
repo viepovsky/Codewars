@@ -5,8 +5,8 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class Kata {
-    public static String removeConsecutiveDuplicates(String s) {
+class Kata {
+    static String removeConsecutiveDuplicates(String s) {
         List<String> strings = Arrays.stream(s.split(" ")).collect(Collectors.toList());
         Iterator<String> iterator = strings.iterator();
         String previous = strings.get(0);

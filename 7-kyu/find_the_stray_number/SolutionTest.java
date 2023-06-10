@@ -4,9 +4,9 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class SolutionTest {
+class SolutionTest {
     @Test
-    public void simpleArray1() {
+    void simpleArray1() {
         assertEquals(2, getActualFor(1, 1, 2));
     }
 

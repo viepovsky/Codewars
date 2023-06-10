@@ -4,9 +4,9 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class KataTest {
+class KataTest {
     @Test
-    public void basicTests() {
+    void basicTests() {
         assertEquals("exampleexample", Kata.removeParentheses("example(unwanted thing)example"));
         assertEquals("", Kata.removeParentheses("()"));
         assertEquals("", Kata.removeParentheses("(())"));

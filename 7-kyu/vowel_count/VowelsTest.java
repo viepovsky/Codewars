@@ -4,9 +4,9 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class VowelsTest {
+class VowelsTest {
     @Test
-    public void testCase1() {
+    void testCase1() {
         assertEquals(5, Vowels.getCount("abracadabra"));
         assertEquals(0, Vowels.getCount(""));
         assertEquals(4, Vowels.getCount("pear tree"));

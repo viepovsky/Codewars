@@ -6,7 +6,7 @@ You are given a string representing a number in binary. Your task is to delete a
 In practice, you should implement this function:
 
 ```
-public long eliminateUnsetBits(String number);
+long eliminateUnsetBits(String number);
 ```
 ### Examples
 ```

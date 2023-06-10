@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class KataTest {
+class KataTest {
     String s1 = "alpha beta beta gamma gamma gamma delta alpha beta beta gamma gamma gamma delta";
     String ans1 = "alpha beta gamma delta alpha beta gamma delta";
     String s2 = "cyqje cyqje cyqje a a a";

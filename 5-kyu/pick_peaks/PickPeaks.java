@@ -5,8 +5,8 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class PickPeaks {
-    public static Map<String, List<Integer>> getPeaks(int[] arr) {
+class PickPeaks {
+    static Map<String, List<Integer>> getPeaks(int[] arr) {
         List<Integer> pos = new ArrayList<>();
         List<Integer> peaks = new ArrayList<>();
         for (int i = 1; i < arr.length-1; i++) {

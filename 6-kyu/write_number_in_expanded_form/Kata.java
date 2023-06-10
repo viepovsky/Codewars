@@ -1,7 +1,7 @@
 package write_number_in_expanded_form;
 
-public class Kata {
-    public static String expandedForm(int num) {
+class Kata {
+    static String expandedForm(int num) {
         String numString = String.valueOf(num);
         StringBuilder result = new StringBuilder();
 

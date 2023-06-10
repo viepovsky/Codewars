@@ -7,7 +7,7 @@ import java.time.format.DateTimeFormatter;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class PeriodTimeTest {
+class PeriodTimeTest {
     private static void doTest(LocalDate last, LocalDate today, int cycleLength, boolean expected) {
         boolean actual = PeriodTime.periodIsLate(last,today,cycleLength);
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");

@@ -5,8 +5,8 @@ import java.util.Collections;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class Kata {
-    public static String binaryAddition(int a, int b){
+class Kata {
+    static String binaryAddition(int a, int b){
         int sum = a + b;
         boolean loopEnd = false;
         List<Integer> result = new ArrayList<>();

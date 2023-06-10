@@ -6,7 +6,7 @@ import java.util.Arrays;
 
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
-public class KataTest {
+class KataTest {
     @Test
     void smallArray() {
         assertEquals(new String[]{"true", "false", "true", "false", "true"},

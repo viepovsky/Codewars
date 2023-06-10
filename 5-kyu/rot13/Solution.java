@@ -1,7 +1,7 @@
 package rot13;
 
-public class Solution {
-    public static String rot13(String message) {
+class Solution {
+    static String rot13(String message) {
         char[] alphabetLowercase = "abcdefghijklmnopqrstuvwxyz".toCharArray();
         char[] alphabetUpperCase = "abcdefghijklmnopqrstuvwxyz".toUpperCase().toCharArray();
         char [] messageArray = message.toCharArray();

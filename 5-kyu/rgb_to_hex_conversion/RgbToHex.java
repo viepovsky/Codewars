@@ -1,7 +1,7 @@
 package rgb_to_hex_conversion;
 
-public class RgbToHex {
-    public static String rgb(int r, int g, int b) {
+class RgbToHex {
+    static String rgb(int r, int g, int b) {
         r = Math.max(Math.min(r, 255), 0);
         g = Math.max(Math.min(g, 255), 0);
         b = Math.max(Math.min(b, 255), 0);

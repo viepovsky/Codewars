@@ -2,8 +2,8 @@ package switcheroo;
 
 import java.util.stream.Collectors;
 
-public class Switch {
-    public static String switcheroo(String x) {
+class Switch {
+    static String switcheroo(String x) {
         return x.chars()
                 .mapToObj((c -> (char)c))
                 .map(c -> {

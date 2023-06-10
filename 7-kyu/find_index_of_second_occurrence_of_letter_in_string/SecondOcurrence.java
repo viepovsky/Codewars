@@ -1,7 +1,7 @@
 package find_index_of_second_occurrence_of_letter_in_string;
 
-public class SecondOcurrence {
-    public static int secondSymbol(String str, char c) {
+class SecondOcurrence {
+    static int secondSymbol(String str, char c) {
         int times = 0;
         for (int i = 0; i < str.length(); i++) {
             if (str.charAt(i) == c) {

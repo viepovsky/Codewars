@@ -2,8 +2,8 @@ package last_digit_of_a_large_number;
 
 import java.math.BigInteger;
 
-public class Kata {
-    public static int lastDigit(BigInteger n1, BigInteger n2) {
+class Kata {
+    static int lastDigit(BigInteger n1, BigInteger n2) {
         String aString = n1.toString();
         String bString = n2.toString();
         int aNumber = Character.getNumericValue(aString.charAt(aString.length() - 1));

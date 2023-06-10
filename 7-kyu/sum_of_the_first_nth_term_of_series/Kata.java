@@ -3,8 +3,8 @@ package sum_of_the_first_nth_term_of_series;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 
-public class Kata {
-    public static String seriesSum(int n) {
+class Kata {
+    static String seriesSum(int n) {
         if (n == 0) {
             return "0.00";
         }

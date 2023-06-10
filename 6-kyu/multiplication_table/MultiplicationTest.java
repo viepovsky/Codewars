@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
-public class MultiplicationTest {
+class MultiplicationTest {
     @Test
     @DisplayName("n = 3")
     void test3() {

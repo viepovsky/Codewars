@@ -4,9 +4,9 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class SolutionTest {
+class SolutionTest {
     @Test
-    public void staticTests() {
+    void staticTests() {
         assertEquals("no one likes this", Solution.whoLikesIt());
         assertEquals("Peter likes this", Solution.whoLikesIt("Peter"));
         assertEquals("Jacob and Alex like this", Solution.whoLikesIt("Jacob", "Alex"));

@@ -4,8 +4,8 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class Solution {
-    public static int isSolved(int[][] board) {
+class Solution {
+    static int isSolved(int[][] board) {
         boolean stillPlay = false;
         List<List<Integer>> rowList = new ArrayList<>();
         List<List<Integer>> columnList = new ArrayList<>();

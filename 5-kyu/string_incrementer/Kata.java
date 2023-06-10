@@ -2,8 +2,8 @@ package string_incrementer;
 
 import java.math.BigDecimal;
 
-public class Kata {
-    public static String incrementString(String str) {
+class Kata {
+    static String incrementString(String str) {
         String strWithoutNumber = str.replaceAll("([0-9]*)$", "");
         String endNumbers = str.replace(strWithoutNumber, "");
         BigDecimal numberToAdd = new BigDecimal(0);

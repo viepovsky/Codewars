@@ -2,8 +2,8 @@ package simple_remove_duplicates;
 
 import java.util.*;
 
-public class Solution {
-    public static int [] solve(int [] arr){
+class Solution {
+    static int [] solve(int [] arr){
         Set<Integer> occurrences = new HashSet<>();
         List<Integer> result = new ArrayList<>();
         for (int i = arr.length - 1; i >= 0; i--) {

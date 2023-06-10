@@ -4,9 +4,9 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class CodewarsTest {
+class CodewarsTest {
     @Test
-    public void exampleTest() {
+    void exampleTest() {
         assertEquals("even", Codewars.oddOrEven(new int[] {}));
         assertEquals("odd", Codewars.oddOrEven(new int[] {2, 5, 34, 6}));
     }

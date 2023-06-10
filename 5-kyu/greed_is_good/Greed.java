@@ -1,8 +1,8 @@
 package greed_is_good;
 
 
-public class Greed{
-    public static int greedy(int[] dice){
+class Greed{
+    static int greedy(int[] dice){
         int resultPoints = 0;
         int[][] count = {{0,1000}, {0,200}, {0,300}, {0,400}, {0,500}, {0,600}};
         for (int die : dice) {

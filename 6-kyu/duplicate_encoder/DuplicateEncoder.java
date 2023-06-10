@@ -2,7 +2,7 @@ package duplicate_encoder;
 
 import java.util.stream.Collectors;
 
-public class DuplicateEncoder {
+class DuplicateEncoder {
     static String encode(String word){
         String tempWord = word.toLowerCase();
         return tempWord.chars()

@@ -1,7 +1,7 @@
 package regex_validate_pin_code;
 
-public class Solution {
-    public static boolean validatePin(String pin) {
+class Solution {
+    static boolean validatePin(String pin) {
         return pin.matches("^(\\d{4}|\\d{6})$");
         //this was my answer to avoid matching passwords like "lala1234" or "1234lala", but after completing kata I found that
         // matches from String returns true only if all String is match, so now I find redundant to use ^ and $

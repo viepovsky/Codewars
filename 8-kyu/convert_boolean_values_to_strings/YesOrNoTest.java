@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class YesOrNoTest {
     @Test
-    public void testBoolToWord() {
+    void testBoolToWord() {
         assertEquals(YesOrNo.boolToWord(true),"Yes");
         assertEquals(YesOrNo.boolToWord(false),"No");
     }

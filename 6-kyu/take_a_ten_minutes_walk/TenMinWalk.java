@@ -2,8 +2,8 @@ package take_a_ten_minutes_walk;
 
 import java.util.Arrays;
 
-public class TenMinWalk {
-    public static boolean isValid(char[] walk) {
+class TenMinWalk {
+    static boolean isValid(char[] walk) {
         int[][] coordinates = {{0, 0}};
         boolean validLength = false;
         if (walk.length == 10){

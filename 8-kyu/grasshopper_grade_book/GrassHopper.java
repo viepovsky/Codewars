@@ -1,9 +1,9 @@
 package grasshopper_grade_book;
 
-public class GrassHopper {
+class GrassHopper {
 
     //NEW APPROACH AFTER 4 MONTHS
-    public static char getGrade(int s1, int s2, int s3) {
+    static char getGrade(int s1, int s2, int s3) {
         int average = (s1 + s2 + s3) / 30;
         switch (average) {
             case 10 :
@@ -16,7 +16,7 @@ public class GrassHopper {
     }
 
     //OLD APPROACH
-    public static char getGradeOld(int s1, int s2, int s3) {
+    static char getGradeOld(int s1, int s2, int s3) {
 
         int score = (s1 + s2 + s3) / 3;
 

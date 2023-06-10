@@ -6,8 +6,8 @@ import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class Runes {
-    public static int solveExpression(final String expression) {
+class Runes {
+    static int solveExpression(final String expression) {
         Pattern pattern = Pattern.compile("^-[0-9?]*|^[0-9?]*");
         Matcher matcher = pattern.matcher(expression);
         matcher.find();

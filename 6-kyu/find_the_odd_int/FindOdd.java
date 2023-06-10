@@ -2,8 +2,8 @@ package find_the_odd_int;
 
 import java.util.Objects;
 
-public class FindOdd {
-    public static int findIt(int[] a) {
+class FindOdd {
+    static int findIt(int[] a) {
         int resultNumber = 0;
         for (int i = 0; i < a.length; i++) {
             int timesInArray = 1;

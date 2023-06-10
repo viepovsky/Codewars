@@ -1,7 +1,7 @@
 package two_sum;
 
-public class Solution {
-    public static int[] twoSum(int[] numbers, int target) {
+class Solution {
+    static int[] twoSum(int[] numbers, int target) {
         int[] result = new int[2];
         boolean resultFound = false;
         for (int i = 0; i < numbers.length; i++) {

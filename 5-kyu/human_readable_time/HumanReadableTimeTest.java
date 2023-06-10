@@ -4,9 +4,9 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class HumanReadableTimeTest {
+class HumanReadableTimeTest {
     @Test
-    public void Tests() {
+    void Tests() {
         assertEquals( "00:00:00", HumanReadableTime.makeReadable(0));
         assertEquals( "00:00:05", HumanReadableTime.makeReadable(5));
         assertEquals( "00:01:00", HumanReadableTime.makeReadable(60));

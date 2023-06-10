@@ -4,9 +4,9 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class KataTest {
+class KataTest {
     @Test
-    public void basicTests() {
+    void basicTests() {
         assertEquals(true, Kata.checkForFactor(10, 2));
         assertEquals(true, Kata.checkForFactor(63, 7));
         assertEquals(true, Kata.checkForFactor(2450, 5));

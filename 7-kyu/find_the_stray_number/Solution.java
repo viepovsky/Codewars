@@ -2,7 +2,7 @@ package find_the_stray_number;
 
 import java.util.Arrays;
 
-public class Solution {
+class Solution {
     static int stray(int[] numbers) {
         int result = 0;
         for (int i = 0; i < numbers.length - 1; i++) {

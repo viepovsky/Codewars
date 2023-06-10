@@ -4,9 +4,9 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class SolutionTest {
+class SolutionTest {
     @Test
-    public void FixedTests() {
+    void FixedTests() {
         assertEquals(18, Solution.century(1705));
         assertEquals(19, Solution.century(1900));
         assertEquals(17, Solution.century(1601));

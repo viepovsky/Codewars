@@ -3,8 +3,8 @@ package count_of_positives;
 import java.util.Arrays;
 import java.util.stream.IntStream;
 
-public class Kata {
-    public static int[] countPositivesSumNegatives(int[] input) {
+class Kata {
+    static int[] countPositivesSumNegatives(int[] input) {
         try {
             if (Arrays.stream(input).filter(n -> n == 0).count() == input.length) {
                 return new int[0];

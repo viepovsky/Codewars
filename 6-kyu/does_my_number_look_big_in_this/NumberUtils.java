@@ -1,7 +1,7 @@
 package does_my_number_look_big_in_this;
 
-public class NumberUtils {
-    public static boolean isNarcissistic(int number) {
+class NumberUtils {
+    static boolean isNarcissistic(int number) {
         int sum = String.valueOf(number)
                     .chars()
                     .mapToObj(n -> (char) n)

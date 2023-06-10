@@ -3,8 +3,8 @@ package character_with_longest_consecutive_repetition;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Solution {
-    public static Object[] longestRepetition(String s) {
+class Solution {
+    static Object[] longestRepetition(String s) {
         if(s.length() == 0) return new Object[]{"", 0};
         List<Integer> characterRepetitionSums = new ArrayList<>();
         int timesRepeat = 1;

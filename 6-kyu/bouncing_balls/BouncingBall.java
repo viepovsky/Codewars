@@ -1,7 +1,7 @@
 package bouncing_balls;
 
-public class BouncingBall {
-    public static int bouncingBall(double h, double bounce, double window) {
+class BouncingBall {
+    static int bouncingBall(double h, double bounce, double window) {
         if (h <= 0 || bounce <= 0 || bounce >= 1 || window >= h) {
             return -1;
         }

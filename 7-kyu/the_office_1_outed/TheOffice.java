@@ -2,8 +2,8 @@ package the_office_1_outed;
 
 import java.util.Arrays;
 
-public class TheOffice {
-    public static String outed(Person[] meet, String boss) {
+class TheOffice {
+    static String outed(Person[] meet, String boss) {
         int sum = Arrays.stream(meet).map(n -> {
             if (n.name.equals(boss)) {
                 return n.happiness * 2;

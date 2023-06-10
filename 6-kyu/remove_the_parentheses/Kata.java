@@ -1,7 +1,7 @@
 package remove_the_parentheses;
 
-public class Kata {
-    public static String removeParentheses(final String str) {
+class Kata {
+    static String removeParentheses(final String str) {
         String result = str;
         int length = 0;
         while (length != result.length()) {

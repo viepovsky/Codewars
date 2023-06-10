@@ -1,7 +1,7 @@
 package rock_paper_scissors;
 
-public class Kata {
-    public static String rps(String p1, String p2) {
+class Kata {
+    static String rps(String p1, String p2) {
         if (p1.equals(p2)) {
             return "Draw!";
         }

@@ -1,7 +1,7 @@
 package latin_squares;
 
-public class LatinSquares {
-    public static int[][] makeLatinSquare(int n) {
+class LatinSquares {
+    static int[][] makeLatinSquare(int n) {
         final int[][] latinSquare = new int[n][n];
         int starterPoint = 1;
         for (int i = 0; i < latinSquare.length; i++) {

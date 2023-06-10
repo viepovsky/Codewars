@@ -6,9 +6,9 @@ import java.util.Arrays;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class KataTest {
+class KataTest {
     @Test
-    public void basicTests() {
+    void basicTests() {
         assertEquals("[]", Arrays.toString(Kata.towerBuilder(0)));
         assertEquals(String.join(",", "*"), String.join(",", Kata.towerBuilder(1)));
         assertEquals(String.join(",", " * ", "***"), String.join(",", Kata.towerBuilder(2)));

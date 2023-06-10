@@ -1,7 +1,7 @@
 package mexican_wave;
 
-public class MexicanWave {
-    public static String[] wave(String str) {
+class MexicanWave {
+    static String[] wave(String str) {
         String[] result = new String[str.replaceAll((" "), "").length()];
         StringBuilder tempString = new StringBuilder(str);
         int k = 0;

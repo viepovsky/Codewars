@@ -1,7 +1,7 @@
 package string_ends_with;
 
-public class Kata {
-    public static boolean solution(String str, String ending) {
+class Kata {
+    static boolean solution(String str, String ending) {
         return str.endsWith(ending);
     }
 }

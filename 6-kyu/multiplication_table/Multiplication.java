@@ -1,7 +1,7 @@
 package multiplication_table;
 
-public class Multiplication {
-    public static int [][] multiplicationTable(int n){
+class Multiplication {
+    static int [][] multiplicationTable(int n){
         int[][] result = new int[n][n];
         for (int i = 0; i < n; i++) {
             result[i][0] = i + 1;

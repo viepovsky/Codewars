@@ -7,7 +7,7 @@ import java.util.Random;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class SolutionCheck {
-    public static String countingSheep(int num) {
+    static String countingSheep(int num) {
         StringBuilder result = new StringBuilder();
         for (int i = 1; i <= num; i++) {
             result.append(i + " sheep...");
@@ -16,9 +16,9 @@ class SolutionCheck {
     }
 }
 
-public class SolutionTest {
+class SolutionTest {
     @Test
-    public void setTests() {
+    void setTests() {
         assertEquals("", Kata.countingSheep(0));
         assertEquals("1 sheep...", Kata.countingSheep(1));
         assertEquals("1 sheep...2 sheep...", Kata.countingSheep(2));
@@ -26,7 +26,7 @@ public class SolutionTest {
     }
 
     @Test
-    public void randomTests() {
+    void randomTests() {
         Random rand = new Random();
         int randomNum = rand.nextInt(100) + 1;
         assertEquals(SolutionCheck.countingSheep(randomNum), Kata.countingSheep(randomNum));

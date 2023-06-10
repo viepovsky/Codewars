@@ -2,8 +2,8 @@ package playing_with_passphrases;
 
 import java.util.List;
 
-public class PlayPass {
-    public static String playPass(String s, int n) {
+class PlayPass {
+    static String playPass(String s, int n) {
         String shifted = shiftString(s, n);
         String replaced = replaceDigit(shifted);
         String swapped = swapLetters(replaced);

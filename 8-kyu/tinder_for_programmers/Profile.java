@@ -5,21 +5,21 @@ class Profile {
     private final int age;
     private final String bio;
 
-    public Profile(String name, int age, String bio) {
+    Profile(String name, int age, String bio) {
         this.name = name;
         this.age = age;
         this.bio = bio;
     }
 
-    public String getName() {
+    String getName() {
         return name;
     }
 
-    public int getAge() {
+    int getAge() {
         return age;
     }
 
-    public String getBio() {
+    String getBio() {
         return bio;
     }
 }

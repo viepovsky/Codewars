@@ -2,8 +2,8 @@ package build_tower;
 
 import java.util.Arrays;
 
-public class Kata {
-    public static String[] towerBuilder(int nFloors) {
+class Kata {
+    static String[] towerBuilder(int nFloors) {
         String[] result = new String[nFloors];
 
         StringBuilder tempString = new StringBuilder();

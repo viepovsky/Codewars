@@ -4,13 +4,13 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class KataTest {
+class KataTest {
     private static void doTest(String str, String expected) {
         assertEquals(expected, Kata.incrementString(str), "input: <"+str+">");
     }
 
     @Test
-    public void exampleTests() {
+    void exampleTests() {
         doTest("foobar000", "foobar001");
         doTest("foo", "foo1");
         doTest("foobar001", "foobar002");

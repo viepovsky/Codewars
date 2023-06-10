@@ -4,9 +4,9 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class KataTest {
+class KataTest {
     @Test
-    public void staticTests() {
+    void staticTests() {
         check("samurai", "ai", true);
         check("sumo", "omo", false);
         check("ninja", "ja", true);

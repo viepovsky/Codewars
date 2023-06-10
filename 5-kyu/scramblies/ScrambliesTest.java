@@ -5,14 +5,14 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class ScrambliesTest {
+class ScrambliesTest {
     private static void testing(boolean actual, boolean expected) {
         assertEquals(expected, actual);
     }
 
     @Test
     @Order(1)
-    public void sampleTests() {
+    void sampleTests() {
         testing(Scramblies.scramble("rkqodlw","world"), true);
         testing(Scramblies.scramble("cedewaraaossoqqyt","codewars"),true);
         testing(Scramblies.scramble("katas","steak"),false);
@@ -26,7 +26,7 @@ public class ScrambliesTest {
     }
 
     @Test @Order(2)
-    public void largeTest() {
+    void largeTest() {
 
         String s1 = "abcdefghijklmnopqrstuvwxyz".repeat(10_000);
         String s2 = "zyxcba".repeat(9_000);

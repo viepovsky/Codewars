@@ -2,8 +2,8 @@ package count_ip_addresses;
 
 import java.util.List;
 
-public class CountIPAddresses {
-    public static long ipsBetween(String start, String end) {
+class CountIPAddresses {
+    static long ipsBetween(String start, String end) {
         List<String> startInts = List.of(start.split("\\."));
         List<String> endInts = List.of(end.split("\\."));
         long result = 0L;

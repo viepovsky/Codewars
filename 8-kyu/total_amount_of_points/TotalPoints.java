@@ -2,8 +2,8 @@ package total_amount_of_points;
 
 import java.util.Arrays;
 
-public class TotalPoints {
-    public static int points(String[] games) {
+class TotalPoints {
+    static int points(String[] games) {
         return Arrays.stream(games)
                 .mapToInt(game -> {
                     int a = Character.getNumericValue(game.charAt(0));

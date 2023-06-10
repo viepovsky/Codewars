@@ -1,7 +1,7 @@
 package whats_a_perfect_power_anyway;
 
-public class PerfectPower {
-    public static int[] isPerfectPower(int n) {
+class PerfectPower {
+    static int[] isPerfectPower(int n) {
         int m = 2, k = 2;
         boolean endLoop = false;
         while (!endLoop) {
