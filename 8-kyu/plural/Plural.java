@@ -1,0 +1,7 @@
+package plural;
+
+class Plural {
+    static boolean isPlural(float f){
+        return f != 1;
+    }
+}
