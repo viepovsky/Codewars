@@ -1,4 +1,4 @@
-package remove_first_and_last_character;
+package remove_first_and_last_character.java;
 
 import org.junit.jupiter.api.Test;
 
