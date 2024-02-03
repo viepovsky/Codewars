@@ -7,8 +7,7 @@ class Kata {
         HashSet<Double> newArr = new HashSet<>();
         HashSet<Double> notUnique = new HashSet<>();
 
-        for (int i = 0; i < arr.length; i++) {
-            double value = arr[i];
+        for (double value : arr) {
             if (!newArr.contains(value)) {
                 newArr.add(value);
             } else {
